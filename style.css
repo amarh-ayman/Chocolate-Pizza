@@ -1,0 +1,208 @@
+
+* {
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  width: 80%;
+  margin: auto;
+}
+
+header{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/*---------------------------------------------------*/
+.logo {
+  width: 50%;
+  display: inline-block;
+}
+
+.logo h1{
+  font-family: 'Caveat', cursive; 
+  font-size:xx-large;
+  font-weight: bolder;
+  letter-spacing: -3px;
+}
+.logo p{
+  font-size: small;
+  color:  rgb(143, 143, 143);
+  letter-spacing: -1px;
+  margin-left: 50px;
+}
+
+.logo img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.socials {
+  float: right;
+}
+
+.socials :nth-child(7){
+  padding-left:15px ;
+}
+
+nav {
+  margin-bottom:30px ;
+}
+
+header hr, main hr {
+background-image:url("../img/hr-img.png");
+background-repeat: repeat;
+width:100% ;
+padding: 10px;
+border: none;
+ }
+/*-------------------------------------------------------*/
+main{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.first_section1 {
+  width: 50%;
+  display: inline-block;
+}
+
+.first_section1 h2 {
+font-size: 30px;
+font-family: fantasy;
+}
+
+.first_section1 p {
+font-size: 15px;
+color: rgb(143, 143, 143);
+letter-spacing: -1px;
+}
+
+.first_section2 {
+  width: 50%;
+  float: right;
+}
+
+.first_section2 div {
+  float: right;
+}
+
+.first_section2 p {
+  display: inline;
+}
+/*----------------------------------------------------------------*/
+.second_section img{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second_section p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-indent: 50px;
+}
+/*----------------------------------------------------------------------*/
+.third_section_minu{
+background-image: url("../img/list-bg.png") ;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom:50px ;
+text-decoration-line: line-through;
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px #888888;
+}
+form{
+    font-family:fantasy;
+}
+.third_section01 {
+display: inline-block;
+width :49%;
+padding:50px ;
+
+}
+
+.third_section02 {
+  width :49%;
+  float: right;
+  padding:50px ;
+  }
+
+  input, label{
+    margin-bottom:20px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
+/*-------------------------------------------------------------------*/
+footer{
+    margin:40px ;
+  }
+
+footer div:first-child div {
+    display:inline-block;
+    width:75% ;
+ }
+ footer div:first-child div img{
+    float: left;
+    margin-right:20px ;
+}
+
+footer div:first-child div h3{
+  margin:5px ;
+}
+
+footer div:first-child div p{
+    width: 80%;
+    float: left;
+    margin-top:15px ;
+    text-align:start;  
+  }
+
+ button {
+    width:15% ;
+    float: right;
+    margin-left: 100px;
+    padding:17px; 
+    background-color: rgba(126, 2, 2, 0.884);
+    color: white;
+    border-style: none;
+}
+
+  footer div{
+    margin-bottom: 50px;
+  }
+
+  footer div:last-child p{
+    text-align: center;
+    color:rgb(196, 196, 196) ;
+    font-size: medium;
+   
+  }
+
+  footer div:last-child div{
+   margin-bottom: 30px;
+}
+
+footer div:last-child div hr {
+    width: 45%;
+    display: inline-block;
+    color: rgb(196, 196, 196);
+}
+
+footer div:last-child div img{
+  display: inline;
+  vertical-align: middle ;
+}
+
+
