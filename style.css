@@ -144,4 +144,74 @@ padding:50px ;
   input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
   }
+
+footer div div :nth-child(2) {
+  
+  margin-left:80px;
+  padding: 25px;
+position: relative;
+top: -100px;
+
+}
+footer div div :nth-child(3) {
+  
+  margin-left:80px;
+  padding: 25px;
+position: relative;
+top: -150px;
+color: rgb(187, 184, 184);
+}
+footer div div :nth-child(4) {
+  
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    position: relative;
+    top: -190px;
+    left: 310px;
+    color: white;
+   background-color: red;
+}
+
+footer div div :nth-child(5) {
+  
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    position: relative;
+    top: -100px;
+   
+}
+footer div div :nth-child(6) {
+  
+  display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:-120px ;
+    left: 550px;
+   
+}
+footer div div :nth-child(7) {
+  
+  text-align: center;
+      color: rgb(0, 0, 0);
+      position: relative;
+    top: -90px;
+    right: 30px;
+   
+}
+footer div div :nth-child(8) {
+  
+  text-align: center;
+      color: rgb(0, 0, 0);
+      position: relative;
+    top: -90px;
+    right: 30px;
+   
+}
+
+
 /*-------------------------------------------------------------------*/
