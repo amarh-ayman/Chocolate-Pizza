@@ -145,73 +145,59 @@ padding:50px ;
     text-decoration: line-through;
   }
 
-footer div div :nth-child(2) {
-  
-  margin-left:80px;
-  padding: 25px;
-position: relative;
-top: -100px;
-
+  footer{
+    margin:40px ;
+  }
+footer div:first-child div {
+    display:inline-block;
+    width:75% ;
+ }
+ footer div:first-child div img{
+    float: left;
+    margin-right:20px ;
 }
-footer div div :nth-child(3) {
-  
-  margin-left:80px;
-  padding: 25px;
-position: relative;
-top: -150px;
-color: rgb(187, 184, 184);
+footer div:first-child div h3{
+  margin:5px ;
 }
-footer div div :nth-child(4) {
-  
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
-    position: relative;
-    top: -190px;
-    left: 310px;
+footer div:first-child div p{
+    width: 80%;
+    float: left;
+    margin-top:15px ;
+    text-align:start;  
+  }
+ button {
+    width:15% ;
+    float: right;
+    margin-left: 100px;
+    padding:17px; 
+    background-color: rgba(126, 2, 2, 0.884);
     color: white;
-   background-color: red;
+    border-style: none;
 }
-
-footer div div :nth-child(5) {
+  footer div{
+    margin-bottom: 50px;
+  }
+  footer div:last-child {
+    text-align: center;
+    color:rgb(196, 196, 196) ;
+    font-size: medium;
   
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
-    position: relative;
-    top: -100px;
-   
+ 
+  }
+  footer div:last-child div{
+   margin-bottom: 30px;
 }
-footer div div :nth-child(6) {
-  
-  display: block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top:-120px ;
-    left: 550px;
-   
+footer div:last-child div hr {
+    width: 45%;
+    display: inline-block;
+    color: rgb(196, 196, 196);
+    
+ 
+    
 }
-footer div div :nth-child(7) {
-  
-  text-align: center;
-      color: rgb(0, 0, 0);
-      position: relative;
-    top: -90px;
-    right: 30px;
-   
+footer div:last-child div img{
+  display: inline-block;
+  vertical-align: middle ;
 }
-footer div div :nth-child(8) {
-  
-  text-align: center;
-      color: rgb(0, 0, 0);
-      position: relative;
-    top: -90px;
-    right: 30px;
-   
-}
-
 
 /*-------------------------------------------------------------------*/
