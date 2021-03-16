@@ -58,11 +58,11 @@ nav {
 }
 
 header hr, main hr {
-background-image:url("../img/hr-img.png");
-background-repeat: repeat;
-width:100% ;
-padding: 10px;
-border: none;
+  background-image:url("../img/hr-img.png");
+  background-repeat: repeat;
+  width:100% ; 
+  padding: 10px;
+  border: none;
  }
 /*-------------------------------------------------------*/
 main{
@@ -112,23 +112,22 @@ letter-spacing: -1px;
 }
 /*----------------------------------------------------------------------*/
 .third_section_minu{
-background-image: url("../img/list-bg.png") ;
-background-repeat: no-repeat;
-background-size: cover;
-margin-bottom:50px ;
-text-decoration-line: line-through;
-border: 1px solid;
-padding: 10px;
-box-shadow: 5px 10px #888888;
+  background-image: url("../img/list-bg.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom:50px ;
+  text-decoration-line: line-through;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
 }
 form{
     font-family:fantasy;
 }
 .third_section01 {
-display: inline-block;
-width :49%;
-padding:50px ;
-
+  display: inline-block;
+  width :49%;
+  padding:50px ;
 }
 
 .third_section02 {
@@ -191,6 +190,6 @@ footer div:last-child div hr {
   color: rgb(196, 196, 196);
 }
 footer div:last-child div img{
-display: inline;
-vertical-align: middle ;
+  display: inline;
+  vertical-align: middle ;
 }
